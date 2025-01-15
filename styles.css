@@ -41,12 +41,110 @@ nav {
     gap: 12px;
     background-color: #A259FF;
     border-radius: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
 
 }
-img{
-    size: auto
+img {
+    size: auto;
+    display: flex;
+}
+.hero_section {
+    color: #FFFFFF;
+    background-color: #2B2B2B;
+    width: 1280px;
+    height: 704px;
+    margin:  auto;
+    display: flex;
+
+}
+.ls {
+    font-family: "Work Sans" ;
+    margin-left: 115px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 510px;
+}
+.h {
+    font-weight: 600;
+    margin:0;
+    padding-bottom: 10px;
+    font-size: 67px;
+    line-height: 73.7px;
+}
+.txt {
+    font-size: 22px;
+    padding-top: 10px;
+    font-weight: 400;
+    line-height: 35.2px;
+}
+.gsbtn {
+    font-family: "Work Sans";
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    display:flex;
+    gap: 12px;
+    background-color: #A259FF;
+    border-radius: 20px;
+    border-width: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-right:50px ;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.addinfo {
+    gap: 30px;
+    display: inline-flex;
+}
+.ait {
+    display: inline;
+    font-size: 23.99px;
+    font-family: "Work Sans";
+    line-height: 38.38px;
+    width: 150px;
+}
+.num {
+    display: inline;
+    font-family: "Space Mono" ;
+    font-size: 28px;
+    line-height: 39.2px;
+    font-weight: 700;
+}
+.rs {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 10px;
+    width: 510px;
+}
+.frame230 {
+    background-color: #3B3B3B;
+    height: 510px;
+    width: 510px;
+    border-radius: 20px;
+}
+.sw {
+    height:31px;
+    font-family: "Work Sans";
+    margin-left: 20px;
+    margin-top: 22px;
+    width: 470px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+    margin-bottom: 0;
+}
+.ak {
+    display: flex;
+    gap: 12px;
+    font-size: 16px ;
+    line-height: 22.4px;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 24px;
+    font-family:"Work Sans" ;
 }
