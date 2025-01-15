@@ -49,7 +49,7 @@ nav {
 }
 img {
     size: auto;
-    display: flex;
+    display: inline-flex;
 }
 .hero_section {
     color: #FFFFFF;
@@ -127,16 +127,16 @@ img {
     width: 510px;
     border-radius: 20px;
 }
-.sw {
-    height:31px;
+
+.sw{
     font-family: "Work Sans";
-    margin-left: 20px;
-    margin-top: 22px;
-    width: 470px;
     font-size: 22px;
     font-weight: 600;
-    line-height: 30.8px;
     margin-bottom: 0;
+    margin-top: 0;
+    line-height: 30.8px;
+    margin-left: 20px;
+    margin-top: 22px;
 }
 .ak {
     display: flex;
@@ -148,3 +148,87 @@ img {
     height: 24px;
     font-family:"Work Sans" ;
 }
+
+.trending_collections {
+    color: #FFFFFF;
+    background-color: #2B2B2B;
+    width: 1280px;
+    height: 836px;
+    margin:  auto;
+    display: flex;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.sh {
+    position: relative;
+    margin-left: 117px;
+    margin-right: 117px;
+}
+h3 {
+    font-family: "Work Sans";
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45.6px;
+    margin-bottom:0;
+}
+.subheading {
+    display: inline-flex;
+    margin-top: 10px;
+    font-weight:400;
+    font-family: "Work Sans";
+    font-size: 22px;
+    line-height: 35.2px;
+
+
+}
+.cardrow {
+    margin-top:60px;
+    display: inline-flex;
+    gap: 30px;
+}
+.collection_card{
+
+}
+.frame228{
+    display: flex;
+    margin-top: 15px;
+    gap: 15px;
+    margin-bottom: 0px;
+
+}
+.numb{
+    texr-align: center;
+    font-size: 22px;
+    font-family: "Space Mono";
+    font-weight: 700;
+    line-height: 32.5px;
+    margin-top: 0;
+    width:84px;
+    height:68px;
+    padding-left: 16px;
+    padding-top: 32px;
+    background-color: #A259FF;
+    border-radius: 20px;
+    margin-bottom: 0;
+}
+.ci {
+margin-top: 15px;
+}
+.cn{
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 30.8px;
+}
+.at{
+    display: flex;
+    gap: 12px;
+    font-size: 16px ;
+    line-height: 22.4px;
+    margin-top: 10px;
+    font-family:"Work Sans" ;
+    font-weight: 400;
+}
+
