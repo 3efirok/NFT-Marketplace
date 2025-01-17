@@ -3,100 +3,57 @@
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
   <meta charset="UTF-8">
   <title>Title</title>
-
 </head>
 <body>
-<header>
-  <nav>
-    <div class="logo">
-      <img src="images/logo.png">
-    </div>
-    <div class="btns">
-      <div class="link">Marketplace</div>
-      <div class="link">Rankings</div>
-      <div class="link">Connect a wallet</div>
-    <div class="img"><img src="images/User.png">Sign up</div>
-    </div>
-  </nav>
-</header>
-<main>
 
+  <header class="header">
 
+        <div class="header_nav">
+          <img class="logo" src="images/header/logo.png">
+          <nav>
+            <ul class="menu">
+              <li class="menu_item">Marketplace</li>
+              <li class="menu_item">Rankings</li>
+              <li class="menu_item">Connect a wallet</li>
+              <li><a class="signup"><img class="user" src="images/header/user.png">Sign Up</a></li>
+            </ul>
 
-  <div class="hero_section">
-    <div class="ls">
-      <div>
-        <h1 class="h">Discover Digital Art & Collect NFTs</h1>
-        <div class="txt">NFT Marketplace UI Created With Anima For Figma. Collect, Buy And Sell Art From More Than 20k NFT Artists.</div>
-      </div>
-      <button class="gsbtn"><img src="images/rocket.png">Get Started</button>
-    <div class="addinfo">
-      <div class="ait"><h4 class="num">240k+</h4><br>Total Sale</div>
-      <div class="ait"><h4 class="num">100k+</h4><br>Auctions</div>
-      <div class="ait"><h4 class="num">240k+</h4><br>Artists</div>
-    </div>
-    </div>
-
-    <div class="rs">
-      <div class="frame230">
-        <img src="images/space.png">
-          <h5 class="sw">Space Walking</h5>
-          <div class="ak"><img src="images/Avatar.png">Animakid</div>
-      </div>
-    </div>
-  </div>
-
-    <div class="trending_collections">
-      <div class="sh">
-        <h3>Trending Collection</h3>
-        <div class="subheading">Checkout Our Weekly Updated Trending Collection.</div>
-         <div class="cardrow">
-          <div class="collection_card">
-            <img src="images/dog.png">
-            <div class="frame228">
-              <div><img src="images/animal1.png"></div>
-              <div><img src="images/animal2.png"></div>
-              <h5 class="numb">1025+</h5>
-            </div>
-            <div class="ci">
-              <h5 class="cn">DSGN Animals</h5>
-              <div class="at"><img src="images/Avatar1.png">MrFox</div>
+          </nav>
+          </div>
+    <div class="container">
+        <div class="header_content">
+          <div class="hero_text">
+            <h1>Discover Digital Art & Collect NFTs</h1>
+            <div class="header_content_text">NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</div>
+            <div class="get_started_button"><img src="images/header/rocket.png">Get Started</div>
+              <ul class="header_stats">
+                <li class="header_stats_list">
+                  <h4 class="header_numbers">240+</h4>
+                  <div class="underline">Total Sale</div>
+                </li >
+                <li class="header_stats_list">
+                  <h4 class="header_numbers">100k+</h4>
+                  <div class="underline">Auctions</div>
+                </li>
+                <li class="header_stats_list">
+                  <h4 class="header_numbers">240k+</h4>
+                  <div class="underline">Artists</div>
+                </li>
+              </ul>
+          </div>
+          <div class="highlighted_nft">
+            <img src="images/header/space.png">
+            <div class="highlighted_nft_text">
+              <h5>Space Walking</h5>
+              <div class="author"><img src="images/header/avatar.png">Animakid</div>
             </div>
           </div>
-           <div class="collection_card">
-             <img src="images/mush.png">
-             <div class="frame228">
-               <div><img src="images/mush1.png"></div>
-               <div><img src="images/mush2.png"></div>
-               <h5 class="numb">1025+</h5>
-             </div>
-             <div class="ci">
-               <h5 class="cn">Magic Mushrooms</h5>
-               <div class="at"><img src="images/Avatar1.png">Shroomie</div>
-             </div>
-           </div>
-           <div class="collection_card">
-             <img src="images/disco.png">
-             <div class="frame228">
-               <div><img src="images/disco1.png"></div>
-               <div><img src="images/disco2.png"></div>
-               <h5 class="numb">1025+</h5>
-             </div>
-             <div class="ci">
-               <h5 class="cn">Disco Machines</h5>
-               <div class="at"><img src="images/Avatar3.png">BeKind2Robots</div>
-             </div>
-           </div>
-
         </div>
       </div>
-    </div>
+  </header>
 
-
-
-</main>
 </body>
 </html>

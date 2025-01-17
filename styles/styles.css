@@ -1,0 +1,158 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    font-family: "Work Sans";
+    color: #FFFFFF;
+}
+nav {
+    display: inline-block;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+li {
+    display: inline-flex;
+    align-items: center;
+}
+h1 {
+
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 67px;
+    line-height: 73.7px;
+}
+h4 {
+    margin: 0;
+}
+h5 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30.8px;
+    margin:0;
+}
+.header {
+    background-color: #2B2B2B;
+    max-width: 1280px;
+    height: 804px;
+    margin: auto;
+}
+.header_nav {
+    height:100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.logo{
+    width:243px;
+    height: 32px;
+}
+.container {
+    padding-right:115px ;
+    padding-left:115px ;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+}
+.menu_item{
+    align-items: center;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+.signup {
+    gap:12px;
+    background-color: #A259FF;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    border-radius: 20px;
+    max-width: 152px;
+}
+.header_content{
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_content_text{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35.2px;
+
+}
+.get_started_button {
+    margin: 30px 0;
+    gap:12px;
+    background-color: #A259FF;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    border-radius: 20px;
+    max-width: 224px;
+}
+.header_stats_list {
+    display: block;
+    min-width: 150px;
+}
+.header_stats{
+    gap: 30px;
+}
+.header_numbers{
+    font-family: "Space Mono";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 39.2px;
+}
+.underline {
+    font-weight: 400;
+    font-size: 23.99px;
+    line-height: 38.38px;
+}
+.highlighted_nft{
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    max-height: 510px;
+}
+.highlighted_nft_text {
+    padding: 22px 20px;
+}
+.author {
+    margin-top: 10px;
+    gap: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    display: flex;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+
+
+
